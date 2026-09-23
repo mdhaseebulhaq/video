@@ -6,7 +6,8 @@ from core.tools import search_knowledge_base
 
 llm = ChatOllama(
     model="llama3.2:3b",
-    temperature=0
+    temperature=0,
+    base_url="http://host.docker.internal:11434"
 )
 
 
